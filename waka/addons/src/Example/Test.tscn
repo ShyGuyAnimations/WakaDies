@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://beenobubc20s5"]
+
+[ext_resource type="Script" path="res://Example/Test.gd" id="1_pgemn"]
+[ext_resource type="Script" path="res://addons/FlowerStats/Scripts/Nodes/UnitNode.gd" id="2_u7r7f"]
+
+[node name="Test" type="Node2D"]
+script = ExtResource("1_pgemn")
+formula = "target.stats[\"hp\"] - source.stats[\"attack\"]"
+
+[node name="UnitNode" type="Node" parent="."]
+script = ExtResource("2_u7r7f")

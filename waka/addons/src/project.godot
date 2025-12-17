@@ -10,17 +10,23 @@ config_version=5
 
 [application]
 
-config/name="waka"
-run/main_scene="uid://drpinyx0mcaku"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/name="FlowerStats"
+run/main_scene="res://Example/World.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Example/Global.gd"
+
+[editor]
+
+naming/scene_name_casing=1
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/FlowerStats/plugin.cfg")
 
-[file_customization]
+[rendering]
 
-folder_colors={
-"res://combat actions/": "red"
-}
+renderer/rendering_method="mobile"

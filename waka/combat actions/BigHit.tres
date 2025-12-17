@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CombatAction" load_steps=2 format=3 uid="uid://c5n181fkpx486"]
+
+[ext_resource type="Script" uid="uid://wya85x7liw5e" path="res://CombatAction.gd" id="1_gmjk3"]
+
+[resource]
+script = ExtResource("1_gmjk3")
+display_name = "FalconPunch"
+damage = 8
+metadata/_custom_type_script = "uid://wya85x7liw5e"

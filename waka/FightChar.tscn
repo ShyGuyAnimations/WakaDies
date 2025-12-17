@@ -9,7 +9,7 @@ cur_hp = 25
 max_hp = 25
 metadata/_edit_group_ = true
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("2_gm7ft")
 
 [node name="DebugBar" type="ProgressBar" parent="."]
